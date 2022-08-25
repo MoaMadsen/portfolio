@@ -71,7 +71,23 @@ a:hover {
   background-color: rgb(233, 120, 120)
 }
 
-#contact {
+#cv {
   top: 460px;
+  background-color: burlywood;
+}
+
+#contact {
+  top: 520px;
   background-color: rgb(225, 247, 183)
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }

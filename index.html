@@ -31,8 +31,9 @@
         <a href="https://www.linkedin.com/in/somporn-teppattra/" id="linkedin">Linkedin&nbsp&nbsp<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="30" height="30"></a>
         <a href="https://www.facebook.com/moa.madsen" id="facebook">Facebook&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" width="30" height="30"></a>
         <a href="https://github.com/MoaMadsen" id="github">GitHub&nbsp;<img src="GitHub-Mark-Light-32px.png" width="30" height="30"></a>
-        <a href="#" id="tiktok">TikTok&nbsp;<img src="tiktok.png" width="30" height="30"></a>
+        <a href="https://www.tiktok.com/@sompornteppattra" id="tiktok">TikTok&nbsp;<img src="tiktok.png" width="30" height="30"></a>
         <a href="https://www.youtube.com/user/sommoohwan/videos" id="youtube">Youtube&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" width="30" height="30"></a>
+        <a href="my eng CV 2022-08-25.pdf" id="cv" download="sompornsCV.pdf">My CV.pdf&nbsp;<img src="CV.png" width="30" height="30"></a>
         <a href="#message" id="contact">Contact&nbsp;<img src="envelope-1204.png" width="30" height="30"></a>
     </div>
 
@@ -59,9 +60,11 @@
             <p>I started my career as a programmer and improved myself to be a system analyst. Then I took my master degree in computer science from NIDA. I was promoted to work as Chief of Computer Department. Since I moved to Sweden, I worked quite a lot with education and languages but I still update my computer skill now and then. We never too old to learn, right?</p>
             <h2>Education</h2>
             <ul>
-                <li>Programer</li>
-                <li>System Analyst</li>
-                
+                <li>Education for System Developers 2022 August<br>Lexicon, Sweden</li>
+                <li>Business Intelligence Architect 2014<br>EC Utbildning, Malmö, Sweden</li>
+                <li>Master in Management Information Systems 2002<br>Central Queensland University, Sydney, Australia</li>
+                <li>Master of Science Major in Computer science 	1994<br>National Institution of Development Administration, Bangkok, Thailand</li>
+                <li>Bachelor of Liberal Arts (Statistics) 1987<br>Thammasat University i Bangkok, Thailand</li>  
             </ul>
             <h2>Skills</h2>
             <ul>
@@ -95,7 +98,22 @@
                 <li>Certificate in Children’s Services<br> 
                     MEGT Institute, Sydney, Australia</li>
             </ul>        
-            <ul><h2>experience</h2><li>1</li><li>2</li></ul>
+            <ul><h2>experience</h2><li>Educator
+                Folkuniversitetet, Trelleborg, Sweden
+                </li>
+                <li>Mathematics teacher
+                    Fridhems folkhögskola, Sweden
+                    </li>
+                <li>Interpreter 
+                    Språkservice Sverige AB
+                    </li>
+                <li>Thai language course leader
+                        Folkuniversitetet, Malmö and Lund, Sweden
+                        </li>
+                <li>Teacher (upper level of compulsory school)
+                            Oxievångsskolan – Malmö, Sweden
+                            </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -106,13 +124,19 @@
         <h1>Contact</h1>
         <p>Feel free to write me a message in the form below or send email to :</p>
         <p>teppattra@yahoo.com</p>
-        <form>
-            <p id ="email">emailaddress</p>
-            <input type="text"  name="emailaddress" placeholder="Email.." required>
-            <br>
-            <button class="bd-links-link bd-green-100 rounded-3" onclick="clickme()" type="button">Send</button>
+        <form class="table-hover" id="inputform"> 
+            <label for="yourname">First Name</label>
+            <input type="text" id="name" name="yourname" placeholder="Your name.."><br>
+            <label for="emailaddress">email address</label>
+            <input type="text" id ="email" name="emailaddress" placeholder="Email.." required> <br>          
+            <label for="subject">Message</label><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <button class="bd-links-link bd-green-100 rounded-3" onclick="return clickme()" type="button">Send</button>
         </form>
+        <p class="text-bg-success" id="thanks"></p>
     </div>
+
+
     <footer id="footer" class="py-5 container"><br>
         <span></span></a><br><br>
         <p style="font-size: small; text-align: center;">© Copyright 2022 by Moa Madsen™  :-D</p>
